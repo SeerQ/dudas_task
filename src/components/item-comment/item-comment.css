@@ -1,0 +1,48 @@
+.item-content {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.right {
+    visibility: hidden;
+
+}
+
+.right.hovered {
+    visibility: visible;
+}
+
+.text-zone {
+    min-width: calc(100% - 128px);
+    padding-left: 10px;
+}
+
+.text-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.text-comment {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.icon-button {
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.img-btn {
+    width: 13px;
+}
+
+
+.item-author-name {
+    font-weight: 600;
+}
